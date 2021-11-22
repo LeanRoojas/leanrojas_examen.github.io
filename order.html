@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="shortcut icon" href="./images/amongus-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Among Us: Trust in no one</title>
+</head>
+
+<body>
+    <!-- Barra de navegacion -->
+    <header class="cabecera">
+        <div class="logo">
+            <p>AMONG US</p>
+        </div>
+        <audio src="./images/among-us-drip-theme-song-original-among-us-trap-remix-amogus-meme-music.mp3"
+            autoplay></audio>
+        <nav class="navbar">
+            <ul>
+                <li><a href="./index.html">
+                        <h3>Home</h3>
+                    </a></li>
+                <li><a href="#characters">
+                        <h3>Choose a character</h3>
+                    </a></li>
+                <li><a href="#about-us">
+                        <h3>About Us</h3>
+                    </a></li>
+                <li><a href="#contact-info">
+                        <h3>Contact info</h3>
+                    </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="form-section">
+
+        <form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="POST" class="formulario">
+
+            <div class="name-cont">
+                <div class="name">
+                    <label for="name">Name*</label>
+                    <input type="text" name="name" required class="imput name">
+                </div>
+                <div class="lastname">
+                    <label for="lastname">Last Name*</label>
+                    <input type="text" name="lastname" required class="imput">
+                </div>
+            </div>
+            <div class="address">
+                <div class="country-cont">
+                    <div class="country">
+                        <label for="country">Country*</label>
+                        <input type="text" name="country" class="imput" required>
+                    </div>
+                    <div class="state">
+                        <label for="state">State*</label>
+                        <input type="text" name="state" class="imput" required>
+                    </div>
+                </div>
+
+                <div class="addres-cont">
+                    <div class="addresss">
+                        <label for="address">Addres*</label>
+                        <input type="text" name="addres" class="imput" required>
+
+                    </div>
+                    <div class="dtp">
+                        <label for="depto/piso">Dtp/Floor</label>
+                        <input type="text" name="depto/piso" class="imput">
+                    </div>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="email">
+                    <label for="email">Email*</label>
+                    <input type="email" name="email" class="imput" required>
+                </div>
+                <div class="tel">
+                    <label for="tel">Telephone*</label>
+                    <input type="number" required>
+                </div>
+            </div>
+
+            <button type="submit">SUBMIT</button>
+        </form>
+
+        <div class="selecciones">
+            <div>
+                <p>Completa el formulario para realizar tu orden</p>
+                <hr>
+            </div>
+            <div class="card-selection"></div>
+            <div class="hat-selection"></div>
+
+        </div>
+
+    </section>
+
+
+
+    <script src="./order.js"></script>
+
+</body>
+
+</html>
